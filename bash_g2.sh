@@ -1,9 +1,10 @@
 #!/bin/bash
-clear
-Menu(){
-  #Nome: Leonardo Vargas    Turma: Redes    Professor: Diego Tumelero    Data: 10/12
+#Nome: Leonardo Vargas    Turma: Redes    Professor: Diego Tumelero    Data: 10/12
 
-   echo "-----Escolha o método de backup-----" 
+Menu(){
+   clear    #Limpa a tela
+   
+   echo "-----Escolha o método de backup-----"   	#Opções do menu
    echo "[1] SCP"
    echo "[2] Rsync"
    echo "[3] Apresentar diretório com Rsync"
